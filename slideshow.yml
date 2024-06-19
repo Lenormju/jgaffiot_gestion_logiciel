@@ -1,0 +1,24 @@
+# Reference : https://pandoc.org/MANUAL.html#default-files
+
+input-files:
+  - src/content.md
+
+css: theme/theme.css
+
+#include-in-header:
+  #- theme/favicon.html
+
+#include-after-body:
+  #- theme/footer.html
+
+to: revealjs
+
+output-file: public/index.html
+
+standalone: true
+self-contained: true
+
+slide-level: 2
+
+verbosity: INFO
+fail-if-warnings: true
