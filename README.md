@@ -10,7 +10,7 @@ Utilises Reveal.js.
 
 ## Construction
 
-UN script est prévu pour créer la présentation, en utilisant une image docker de pandoc :
+Un script est prévu pour créer la présentation, en utilisant une image docker de pandoc :
 
     ./build.sh
 
